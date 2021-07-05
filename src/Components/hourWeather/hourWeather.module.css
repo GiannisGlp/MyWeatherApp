@@ -1,0 +1,27 @@
+.container {
+  padding: 10px;
+  display: inline-block;
+  font-size: 12px;
+}
+
+.item {
+  text-align: center;
+  height: 10px;
+  width: 30px;
+  padding: 8px 10px;
+}
+
+@media screen and (min-width: 813px) {
+  .container {
+    padding: 10px;
+    display: inline-block;
+    font-size: 0.9em;
+    margin-left: 170px;
+  }
+  .item {
+    text-align: center;
+    height: 10px;
+    width: 60px;
+    padding: 8px 10px;
+  }
+}

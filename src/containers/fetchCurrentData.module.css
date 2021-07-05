@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 12px;
+}
+.main {
+  display: inline-block;
+  justify-content: space-around;
+}
+.temperatures {
+  display: flex;
+
+  justify-content: space-around;
+}
+
+.realfeel {
+  display: flex;
+  justify-content: space-around;
+}
+
+.details {
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+}
+.details > div {
+  text-transform: capitalize;
+}
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid darkgray;
+  margin: 0.5em 0;
+  padding: 0;
+}
+
+.main > div {
+  font-size: 1.2em;
+  font-style: italic;
+}
+span {
+  text-decoration-line: underline;
+}
+
+h4 {
+  text-align: center;
+}
+
+@media screen and (min-width: 813px) {
+  .container {
+    font-size: 0.9em;
+  }
+}
