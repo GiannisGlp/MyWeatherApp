@@ -2,10 +2,6 @@
   background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
 }
 
-h4 {
-  text-align: center;
-}
-
 @media screen and (min-width: 813px) {
   body {
     font-size: 30px;

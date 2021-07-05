@@ -2,6 +2,19 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Description
+
+Simple Web App for weather presentation.
+Provides weather information from Openweather.
+Main Objectives are visualization of weather information about Athens, for next 5 dAY, current weather information and hourly.
+
+## Installation
+
+1.install node_moddules, npm
+2.install axios in route folder: npm install axios
+3.In axiosWeather, under the src folder, add your openweather API_KEY.
+Link: https://openweathermap.org/
+
 ## Available Scripts
 
 In the project directory, you can run:
